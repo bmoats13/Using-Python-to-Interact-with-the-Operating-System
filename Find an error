@@ -1,0 +1,7 @@
+cat ~/data/fishy.log
+cd ~/scripts
+nano find_error.py
+sudo chmod +x find_error.py
+./find_error.py ~/data/fishy.log
+CRON ERROR Failed to start
+cat ~/data/errors_found.log
